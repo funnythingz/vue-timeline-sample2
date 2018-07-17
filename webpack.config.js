@@ -45,6 +45,13 @@ let config = {
                 }
             },
             {
+                test: /\.css$/,
+                use: [
+                    'style-loader',
+                    'css-loader'
+                ]
+            },
+            {
                 test: /\.sass$/,
                 use: [
                     'vue-style-loader',
@@ -70,7 +77,11 @@ let config = {
                         use: ['pug-plain-loader']
                     }
                 ]
-            }
+            },
+            {
+                test: /\.woff2?$|\.ttf$|\.eot$|\.svg$|\.png$|\.jpg$/,
+                loader: 'file-loader'
+            },
         ]
     },
 
