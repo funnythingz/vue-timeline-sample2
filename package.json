@@ -1,0 +1,51 @@
+{
+  "name": "vue-timeline-sample2",
+  "version": "1.0.0",
+  "description": "webpack v4, babel, Vue.js",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "vue": "^2.5.16",
+    "webpack": "^4.16.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-command": "^0.4.1",
+    "webpack-serve": "^2.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.52",
+    "@babel/preset-env": "^7.0.0-beta.52",
+    "@types/node": "^10.5.2",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.0-beta.0",
+    "babel-plugin-lodash": "^3.3.4",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^1.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "lodash-webpack-plugin": "^0.11.5",
+    "mini-css-extract-plugin": "^0.4.1",
+    "node-sass": "^4.9.2",
+    "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "vue-loader": "^15.2.4",
+    "vue-template-compiler": "^2.5.16"
+  },
+  "scripts": {
+    "build:dev": "webpack --mode development",
+    "build:prod": "webpack --mode production",
+    "start:dev": "webpack-serve --port 8088"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/funnythingz/frontend-template-type2.git"
+  },
+  "author": "funnythingz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/funnythingz/frontend-template-type2/issues"
+  }
+}
