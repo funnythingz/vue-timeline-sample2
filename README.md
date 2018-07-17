@@ -4,6 +4,8 @@
 - babel
 - Vue.js
 
+![cap](cap.gif)
+
 ## setup
 
 ```
